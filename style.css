@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  background-color: #efefef;
+ }
+ h1 {
+  font-size: 3.5rem;
+  color: #2b2c2c;
+  font-family: montserrat;
+ }
+ .a{
+  background-image: url("sounds/andrew.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  opacity: 0.6;
+ }
+ .r{
+  background-image: url("sounds/rendon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  opacity: 0.6;
+ }
+ .d{
+  background-image: url("sounds/david.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  border: none;
+  opacity: 0.6;
+ }
+ .m{
+  background-image: url("sounds/michael.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  opacity: 0.6;
+ }
+ .k{
+  background-image: url("sounds/kobe.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  opacity: 0.6;
+ }
+ .c{
+  background-image: url("sounds/john.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  opacity: 0.6;
+ }
+
+ .speaker {
+  width: 150px;
+  height: 300px;
+  color: transparent;
+ }
+ #justpress{
+  margin-bottom: 0px;
+ }
+ .renderLine{
+  font-size: 2rem;
+  font-weight: 800;
+  opacity: 1;
+  animation: fadeIn 2s; 
+ }
+ @keyframes fadeIn {  
+  from {  
+      opacity:0;  
+  }  
+
+  to {  
+      opacity:1;  
+  }  
+}
+.mp3-container{
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+}
+ .container{
+display: flex;
+text-align: center;
+width: 900px;
+margin-inline: auto;
+justify-content: space-between;
+ }
+
+ .pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 1;
+}
